@@ -1,0 +1,54 @@
+
+body { 
+    margin: 0;
+}
+
+nav { 
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    width: fit-content;
+    margin: 2.5rem auto 0 auto;
+    text-decoration: underline;
+}
+
+.component {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.code {
+    border: 1px solid black;
+    width: 25rem; height: 20rem;
+}
+
+
+
+.preview {
+    border: 1px solid black;
+    width: 25rem; height: 20rem;
+}
